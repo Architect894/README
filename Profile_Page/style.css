@@ -1,0 +1,245 @@
+#navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    padding: 0px;
+    margin: -1% -2% 3% -1%;
+}
+#mainMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #mainMenu > h1{
+        font-size: 62px;
+        margin: 10% 13% 8% -54%;
+}
+    #mainMenu > a{
+        font-size: 21px;
+        margin: 3% 5% 0% -24%;
+}
+        
+    #mainMenu > button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        background-color: rgb(0, 43, 134);
+        color: aliceblue;
+        border-radius: 10%;
+        width: 100px;
+        height: 35px;
+        margin: 4% -22% 0% 0%;
+}
+
+#mainCol{
+    display: flex;
+}
+
+.userProfile{
+    flex: 2;
+    border: 2px solid black;
+    border-top: 125px solid cornflowerblue;
+    margin: 0% 13% 18% 13%;
+}
+
+    .userProfile > p{
+        font-size: 30px;
+        margin: 0% 0% 7% 13%;
+    }
+
+.jane{
+    margin: -9% 0% 5% 15%;
+}
+
+    .jane > img{
+        height: 145px;
+        border-radius: 50%;
+}
+    .jane > h2{
+        font-size: 45px;
+        margin: 0% 0% 0% -3%;
+    }
+
+.location{
+    font-size: 20px;
+    margin: 0% 0% 0% 0%;
+}
+    .location > img{
+        height: 25px;
+        margin: 0% 0% -1% 0%;
+    }
+
+.editProfile{
+    display: flex;
+    margin: -3% 0% 0% 3%
+    
+}
+    .editProfile >a{
+        font-size: 20px;
+        margin: 0% 0% 0% 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .editProfile > a > img{
+        height: 25px;
+        margin: 0% 0% 0% -5%;
+    }
+.connectionRequests{
+    flex: 1;
+    margin: 0% 14% 27% -6%;
+    border: solid black;
+    border-top: 122px solid grey;
+}
+.numRequest{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: -24% 0% 15% 10%;
+}
+    .numRequest > button{
+        border-radius:50%;
+        font-size: 20px;
+        margin: 0% 6% 0% 0%;
+    }
+
+    .numRequest > p{
+        font-size: 25px;
+        color: white;
+    }
+.pendingRequest1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0% 0% 9% 0%;
+}
+    .pendingRequest1 > img{
+        border-radius: 50%;
+        height: 80px;
+    }
+    .pendingRequest1 > p{
+        font-size: 25px;
+    }
+    .yesNo > a > img{
+        height: 45px
+    }
+
+.pendingRequest2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    .pendingRequest2 > img{
+        border-radius: 50%;
+        height: 80px;
+    }
+    .pendingRequest2 > p{
+        font-size: 25px;
+    }
+    .yesorNo > a > img{
+        height: 45px
+    }
+
+#bottomleftCol{
+    display: flex;
+}
+
+.userEducation{
+    flex: 2;
+    border: 2px solid black;
+    border-top: 125px solid grey;
+    margin: -14% 43% 0% 13%;
+}
+    .userEducation > h3{
+        margin:-9% 0% 10% 9%;
+        font-size: 28px;
+        color: white;
+    }
+    .userEducation >h4{
+        margin: 0% 0% 4% 7%;
+        font-size: 20px;
+    }
+    .userEducation > p{
+        margin: 0% 0% 4% 10%;
+        font-size: 18px;
+        color:grey
+    }
+#bottomrightCol{
+display: flex;
+}
+
+.yourFriends{
+    flex: 1;
+    border: solid black;
+    border-top: 122px solid grey;
+    margin: -25% 14% 0% 64%;
+}
+.numFriends{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -19% 0% 16% -5%;
+}
+
+    .numFriends > button{
+        border-radius: 60%;
+        font-size: 19px;
+        margin: 0% 6% 0% 0%;
+    }
+    .numFriends > h3{
+        font-size: 25px;
+        color: white;
+    }
+.friend1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px
+}
+    .friend1 > img{
+        border-radius: 50%;
+        height: 85px;
+        margin: 5% 7% 8% -7%
+    }
+.friend2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px
+}
+.friend2 > img{
+    border-radius: 50%;
+    height: 85px;
+    margin: 5% 7% 8% -7%
+}
+.friend3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px
+}
+    .friend3 > img{
+        border-radius: 50%;
+        height: 85px;
+        margin: 5% 7% 8% -7%;
+    }
+.friend4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px
+}
+    .friend4 > img{
+        border-radius: 50%;
+        height: 85px;
+        margin: 5% 7% 8% -7%
+    }
+.viewMore{
+    display: flex;
+    margin: 2% 0% 3% 0%;
+}

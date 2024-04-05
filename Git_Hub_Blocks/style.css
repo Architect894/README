@@ -1,0 +1,39 @@
+html{
+    background-color: rgb(17, 17, 17);
+}
+
+#header{
+    justify-content: center;
+    height: 200px;
+    margin-left: 40%;
+    font-size: xxx-large;
+    color: lightgoldenrodyellow;
+    font-family: system-ui
+}
+
+.topRow{
+    background-color: bisque;
+    height:400px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display:flex;
+    justify-content: space-around;
+    }
+
+.midRow{
+    background-color: darkslategrey;
+    height: 400px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    }
+
+.bottomRow{
+    background-color:crimson;
+    height: 400px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,167 @@
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid rgb(179, 179, 179);
+    background-color: rgb(131, 131, 131);
+    color: rgb(24, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin-top: -18px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+    .navBar  h1{
+        display: flex;
+        align-items: center;
+        margin-left: 21%;
+        font-size: 49px
+    }
+    .navBar button{
+        height: 57px;
+        width: 112px;
+        font-size: 20px;
+        background-color: rgb(0, 204, 187);
+        color: aliceblue;
+        margin-right: 400px;
+        border-radius: 10%;
+    }
+
+    #col1{
+        display: flex;
+        border: 2px solid black;
+        margin: 22px 50% 6px 20%;
+        background-color: #bdbdbd;
+        }
+    
+    .def1{
+        flex: 1;
+    }
+        .def1 > h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 37px;
+            margin: 24% 0% 0% 42%;
+            font-family: system-ui;
+
+        }
+
+        .def1 > p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30% -50% 0% 1%;
+            font-size: 18px;
+            font-family: cursive;
+        }
+        .def1 > p > span{
+            font-style: italic;
+            margin: 0% 0% 0% 6%;
+        }
+
+    .like1{
+            height: 40px;
+            margin: 30% 0% 20% 21%;
+        }
+        .like1 > button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            height: 42px;
+            width: 106px;
+            background-color: rgb(255, 255, 150);
+        }
+
+        .meaning1{
+            margin: 16% 0% 18% 10%;
+            font-size: 19px;
+            font-family: cursive
+        }
+    #bottomleftCol{
+        display: flex;
+        border: 2px solid black;
+        margin: 22px 50% 6px 20%;
+        background-color: #bdbdbd
+    }
+    .def2{
+            margin: 4% 3px 4% 31px;
+            color: rgb(0, 0, 0);
+        }
+        .def2 > h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 37px;
+            margin: 24% 0% 23% -10%;
+            font-family: system-ui;
+        }
+        .def2 > p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 9% 1% 14% -2%;
+            font-size: 18px;
+            font-family: cursive;
+        }
+            .def2 > p > span{
+                font-style: italic;
+                margin: 0% 0% 0% 6%;
+            }
+        .like2{
+            height: 40px;
+            margin: 24% 0% 0% -10%;
+        }
+            .like2 > button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                margin: 0% 0px 0% 10px;
+                height: 42px;
+                width: 106px;
+                background-color: rgb(255, 255, 150) ;
+        }
+            .like2 > button > p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            margin: 7% 6px 5% 3px;
+        }
+        .meaning2{
+            margin: 15% 3% 17% 16%;
+            font-size: 19px;
+            font-family: cursive
+        }
+
+    #rightCol{
+        display: flex;
+        
+    }
+    .yourDojonary{
+        flex: 2;
+        margin: -32% 14% 10% 53%;
+        border: 2px solid black;
+        background-color: #bdbdbd;
+    }
+        .yourDojonary > button{
+            font-size: 20px;
+            margin: 4% 0px 5% 187px;
+            border-radius: 5%;
+            height: 61px;
+            width: 210px;
+            background-color: #f5a84c;
+            color: #262000;
+        }
+        .yourDojonary > p{
+            font-size: 50px;
+            margin: 10% 0px 12% 48px;
+            color: rgb(0, 0, 0);
+        }
+        .yourDojonary > p > span{
+            font-family: cursive;
+            font-size: 70px
+        }

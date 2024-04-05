@@ -1,0 +1,67 @@
+
+
+<!-- HTML validated -->
+<!-- https://validator.w3.org/#validate_by_upload -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Title>Button Clicker</Title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!-- NAV BAR -->
+    <div class="navBar">
+        <h1>Dojonary</h1>
+        <form>
+            <input type="search">
+        </form>
+        <button onclick="decide(this)"> Login </button>
+    </div>
+    <div id="col1">
+    <div class="def1">
+        <h2>Ninja</h2>
+            <p>Noun</p>
+            <p> Plural: <span>ninjas</span></p>
+        <div class="like1">
+            <button onclick="alert('ninja has been liked')" >
+                13 likes
+            </button>
+        </div>
+    </div>
+    <div class="meaning1" onclick="">
+        <p
+            >A practitioner skilled in the Japanese art of ninjutsu.
+        </p>
+    </div>
+</div>
+<div id="bottomleftCol">
+    <div class="def2">
+        <h2>Ninja</h2>
+        <p>Noun<p>
+        <p>Plural: <span>ninjas</span></p>
+        <div class="like2">
+            <button onclick="alert('ninja has been liked')">
+                37 likes
+            </button>
+        </div>
+    </div>
+    <div class="meaning2">
+        <p>
+            A programmer that breaks down problems with zen-like focus
+        </p>
+    </div>
+</div>
+<div id="rightCol">
+    <div class="yourDojonary">
+        <p> Dojonary is defined by <span>YOU</span></p>
+        
+        <button onclick="this.remove()">
+            Add Definition
+        </button>
+    </div>
+</div>
+</html>

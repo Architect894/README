@@ -1,0 +1,47 @@
+
+
+#user1{
+    display: flex;
+    border: 2px solid black;
+    margin: 9% 33% 10px 32%;
+    background-color: #bdbdbd;
+    }
+
+
+    #user1 > h1{
+        margin: 3% 10px 21% 50px;
+        font-size: 44px;
+        font-family: cursive;
+    }
+    #user1 > h2{
+        margin: -6% 10px 3% 40px;
+        font-size: 24px;
+        font-family: cursive;
+    }
+    #user1 > p{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: -6% 1% 10% 10%;
+        font-family: cursive;
+        font-size: 23px;
+}
+
+    #user1 > button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        margin: 5% 18px 0% 52px;
+        height: 42px;
+        width: 106px;
+        background-color: rgb(255, 255, 150);
+    }
+    .meaning1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: -7% 33% 10px 35%;
+        font-size: 21px;
+        font-family: system-ui;
+    }
